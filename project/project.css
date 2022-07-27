@@ -1,0 +1,235 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+#nav{
+    background:linear-gradient(yellow,pink,white);
+    
+    font-style: italic; 
+    
+    
+}
+.fire{
+    padding-bottom: 100px;
+
+}
+
+
+#center{
+    text-align: center;
+    padding-top:150px;
+    padding-bottom: 100px;
+}
+.img{
+    height: 400px;
+    padding-top: 10px;
+}
+#abo{
+    background-image: url("./images/about.jpg");
+    color: white;
+    opacity: 20px;
+    padding-top: 150px;
+
+    text-align: center;
+    padding-bottom: 200px;
+    width: 100%;
+    opacity: 40px;
+    
+}
+#page{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*#navbar{
+    position: fixed;
+    display: flex;
+
+    border-radius: 20px;
+    
+
+
+}*/
+.navbar{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+.nav-item:hover{
+    font-size: large;
+    border-bottom: 2px solid red;
+}
+#preloader{
+    background:black url(images/673b60a6067698efc0b4b2b09e3a00e3.gif) no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    animation-name:preloader;
+}
+
+    
+
+
+
+.gif{
+    height: 200px;
+    width: 400px;
+    transform: rotate(23deg);
+}
+
+.port{
+  
+   padding-left: 100px;
+   
+}
+.carousel{
+    width: 90%;
+    padding-top:90px;
+    padding-bottom: 90px;
+    height: auto;
+
+}
+.ser{
+    color:green;
+}
+.ser:hover{
+    font-family: cursive;
+}
+.pro{
+    background: linear-gradient(pink,blue);
+    text-align: center;
+    color: red;
+    padding: 60px;
+    opacity: 40px;
+    text-shadow: 2px 2px black;
+}
+h1:hover{
+    color:red;
+    font-style: initial;
+
+    
+}
+#start{
+    background-color: burlywood;
+    padding-top: 80px;
+   /* padding-left: 20px;*/
+    padding: auto;
+    height: auto;
+    width: auto;
+}
+.ser{
+    text-align: center;
+    padding-bottom: 30px;
+}
+/* writing*/
+.ka{
+    
+    justify-content:center;
+}
+h2{
+    color: black;
+    text-shadow: 2px 2px white;
+}
+.ka{
+    text-shadow: 2px 2px black;
+}
+h3{
+    text-shadow: 2px 2px black;
+    color: aliceblue;
+}
+/*contact**/
+
+#contact{
+         background:linear-gradient(aqua,brown); 
+         color:whitesmoke;
+         padding-left:50px;
+         padding-top: 100px;
+         padding-bottom: 140px;
+}
+.blue1{
+    padding-left: 50px;
+    padding-top: 50px;
+    
+    width: 400px;
+    
+    
+
+}
+#msg{
+    height: 100px;
+    width: 400px;
+}
+.with{
+    background:linear-gradient(aqua,brown);
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.with:hover{
+    background:linear-gradient(aqua,brown);
+    border: 2px solid red;
+    border-radius:5px;
+    color: black;
+}
+.red{
+    text-align:start;
+    text-decoration:underline;
+    font-size: 30px;
+
+}
+.red:hover{
+    color: red;
+    text-shadow:  3px 3px rgb(20, 241, 75);
+
+}
+.one{
+    padding-top:50px ; 
+}
+.nmae{
+    width: 400px;
+
+}
+.email{
+    width: 400px;
+}
+
+@media screen and (min-width:150px) and (max-width:500px) {
+    .add{
+        width: 300px;
+    }
+    .one{
+        text-align: center;
+    }
+    .red{
+        color: chartreuse;
+    }
+    .nmae{
+        width: 200px;
+    
+    }
+    .email{
+        width: 200px;
+    }
+    #msg{
+        width: 200px;
+    
+    }
+    .red{
+        text-align:end;
+
+        padding-bottom: 20px;
+    }
+    .start{
+        padding: none;
+    }
+    .port{
+        padding-left: 10px;
+    }
+    .img{
+        height: 200px;
+    }
+    .blue1{
+        width: 200px;
+    }
+    
+    
+    
+}
+
+
